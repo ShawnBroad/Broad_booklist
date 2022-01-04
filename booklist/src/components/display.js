@@ -1,9 +1,9 @@
-import {Form, Button, Row, } from "react-bootstrap";
+import {Form, Button, Row, Card } from "react-bootstrap";
 
 
 const Display= () =>{
     return(
-
+<>
 <Form>
   <Row>
     <Form.Group controlId="exampleForm.ControlTextarea1">
@@ -29,7 +29,18 @@ const Display= () =>{
     </Button>
 </Row>
 </Form>
-
+<Row>
+    <Card style={{ width: '18rem' }}>
+    <Card.Body>
+        <Card.Title>Horus Rising</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">Dan Abnett</Card.Subtitle>
+        <Card.Text>
+        The start of Horus taking over as Warmaster
+        </Card.Text>
+    </Card.Body>
+    </Card>
+</Row>
+</>
 
 
     )
