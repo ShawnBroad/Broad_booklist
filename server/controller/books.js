@@ -1,4 +1,4 @@
-import { Mongoose } from "mongoose";
+import  mongoose  from "mongoose";
 import Books from '../modal/books.js';
 
 export const getBooks = async (req, res) => {
